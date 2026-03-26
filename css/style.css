@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}
+
+/* Form Validation Indicators */
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.is-valid {
+    border-color: #198754 !important;
+}
